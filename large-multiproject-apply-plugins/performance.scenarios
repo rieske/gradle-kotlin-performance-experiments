@@ -1,0 +1,9 @@
+default-scenarios = ["mutateBuildSrc"]
+
+mutateBuildSrc {
+  tasks = ["help"]
+  apply-non-abi-change-to = "buildSrc/src/main/java/Thing.java"
+  warm-ups = 1
+  iterations = 1
+}
+
