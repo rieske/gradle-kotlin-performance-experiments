@@ -1,0 +1,7 @@
+build/
+gradle-user-home/
+target/
+.gradle
+.settings/
+.project
+.classpath
